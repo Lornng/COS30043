@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with Vue.js 3",
+    "content": "Just started learning Vue 3's composition API. Any recommended resources for state management?",
+    "date": "2024-03-01",
+    "category": "Tech"
+  },
+  {
+    "id": 2,
+    "title": "Reducing Carbon Footprint at Home",
+    "content": "Sharing my experience with solar panels and energy-efficient appliances. What eco-friendly upgrades have you made?",
+    "date": "2024-03-02",
+    "category": "Sustainability"
+  },
+  {
+    "id": 3,
+    "title": "Best GPUs for 4K Gaming in 2024",
+    "content": "Debating between NVIDIA RTX 4080 and AMD RX 7900 XTX. Which would you choose for AAA titles?",
+    "date": "2024-03-03",
+    "category": "Gaming"
+  },
+  {
+    "id": 4,
+    "title": "Python vs JavaScript for Beginners",
+    "content": "Which language should I learn first for web development? Looking for community opinions.",
+    "date": "2024-03-04",
+    "category": "Tech"
+  },
+  {
+    "id": 5,
+    "title": "Urban Gardening Tips",
+    "content": "Successfully grew tomatoes on my balcony! Sharing my setup and lessons learned.",
+    "date": "2024-03-05",
+    "category": "Sustainability"
+  },
+  {
+    "id": 6,
+    "title": "Cyberpunk 2077: Phantom Liberty Review",
+    "content": "Finally played the DLC - the story expansion is phenomenal! What did you think of the ending?",
+    "date": "2024-03-06",
+    "category": "Gaming"
+  },
+  {
+    "id": 7,
+    "title": "Securing REST APIs with JWT",
+    "content": "Struggling with token expiration handling. Any best practices to share?",
+    "date": "2024-03-07",
+    "category": "Tech"
+  },
+  {
+    "id": 8,
+    "title": "Electric Cars: Tesla vs BYD",
+    "content": "Comparing range and charging speeds. Which brand offers better value long-term?",
+    "date": "2024-03-08",
+    "category": "Sustainability"
+  },
+  {
+    "id": 9,
+    "title": "Nintendo Switch 2 Rumors",
+    "content": "Leaked specs suggest 4K support. Are you excited for the next-gen console?",
+    "date": "2024-03-09",
+    "category": "Gaming"
+  },
+  {
+    "id": 10,
+    "title": "React vs Vue in 2024",
+    "content": "Which framework has better job prospects? Debating my next career move.",
+    "date": "2024-03-10",
+    "category": "Tech"
+  },
+  {
+    "id": 11,
+    "title": "Plastic-Free Living Challenges",
+    "content": "Trying to eliminate single-use plastics. Any tips for grocery shopping?",
+    "date": "2024-03-11",
+    "category": "Sustainability"
+  },
+  {
+    "id": 12,
+    "title": "AI Ethics in Software Development",
+    "content": "How do we balance innovation with responsible AI practices?",
+    "date": "2024-03-12",
+    "category": "Tech"
+  }
+]
