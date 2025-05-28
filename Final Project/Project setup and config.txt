@@ -1,0 +1,54 @@
+Vite Setup
+1. Install node.js 
+2. Open VS code as Administrator, new terminal, run 
+Set-ExecutionPolicyRemoteSigned-Scope CurrentUser
+
+3. Create project with vite
+npm create vite@latest
+Project name: assignment2
+Select Framework: Vue
+Select Variant: JavaScript
+
+4. Done with creation now install dependencies
+cd to assignment2, npm install
+
+5. Done with dependencies, start with development server
+npm run dev
+
+6. Install vue router
+npm install vue-router
+
+
+
+Use firebase
+- Create firebase project namely: Community Forum
+- Create a cloud firebase database (test database- all data will be deleted in 30days)
+- Create a web app: CommForum
+	- install firebase SDK
+	npm install firebase
+
+Use Pinia store for authentication purpose.
+- User Authentication
+Track login status globally (e.g., show/hide buttons based on auth.user).
+- Thread Management
+Share thread data across components without prop drilling.
+- Clean Code
+Centralize logic (e.g., Firebase interactions) instead of duplicating code.
+	- install pinia 
+	npm install pinia @pinia/nuxt
+
+
+Created a script "utils/seedFirestore.js" to push the sample threads.json data into firebase
+- change the security rules (temporarily) to allow all entry
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /threads/{thread} {
+      allow read, write: if true; // Allow all access temporarily
+    }
+  }
+}
+
+
+Date-fns is used for date calculations
+npm install date-fns

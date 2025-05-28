@@ -1,0 +1,16 @@
+Pre-deployment
+1. Upload image to GitHub and replace those images with GitHub link (following the html href GitHub format) make sure the image is successfully delivered
+
+2. Save the file temporarily
+
+3. Start with the deployment 
+
+Deployment
+1. cd to assignment/project in a new terminal, run the command "npm run build"
+	- "dist" folder will show up
+2. Get in to the dist folder > index.html
+	- modify the src 
+	- make sure each src are able to "ctrl+click"
+3. Upload to WinSCP, everything in dist except "vite.svg"
+
+4. here is the link https://mercury.swin.edu.au/cos30043/s103840759/finalProject/
