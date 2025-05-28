@@ -3,6 +3,6 @@ Interface Design and Development
 
 Implemented the use of Vue to create projects
 
-Community-Forum
+## Final Project (Community-Forum)
 - Integrate Vue.js Vite and Firebase API
   -Firebase API used to manage the authentication and database
